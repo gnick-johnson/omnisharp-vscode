@@ -10,7 +10,7 @@ If you have more than one launchable project, then you will need to modify your 
 Visual Studio Code will still generate a basic template, but you will need to fill in the 'program' field to point at the executable dll that you would like to debug.
 
 
-# Configurating VS Code's debugging behavior
+# Configuring VS Code's debugging behavior
 
 ## PreLaunchTask
 The `preLaunchTask` field runs the associated taskName in tasks.json before debugging your program. You can get the default build prelaunch task by executing the command `Tasks: Configure Tasks Runner` from the VS Code command palette.
